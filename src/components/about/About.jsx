@@ -13,12 +13,12 @@ const About = () => {
                 </div>
             </div>
             <div className="a-right">
-                <h1 className="a-title">About Me</h1>
+                <h1 className="a-title">Objectives</h1>
                 <p className="a-sub">
-                    Life is a game: play it; Life is a challenge: Meet it; Life is an opportunity: Capture it.
+                    An independent and hard-working student with an aim for creating elegant solutions in the least amount of time. Developed an ecommerce webapp & websites using various technologies.
                 </p>
                 <p className="a-desc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nam dicta, fuga vero cum id molestiae similique sit aspernatur inventore voluptatem assumenda aliquid, omnis dolor architecto eligendi dolores, fugiat ad.
+                Assure a responsible career opportunity to fully utilize my training and skills, while making a remarkable contribution for providing elegant solutions.                    
                 </p>
                 <div className="a-award">
                     <img src={education} alt="" className="a-award-img" />

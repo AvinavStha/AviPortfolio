@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/AviPortfolio/static/css/main.b46cc0a9.chunk.css",
+    "main.js": "/AviPortfolio/static/js/main.bd5864cb.chunk.js",
+    "main.js.map": "/AviPortfolio/static/js/main.bd5864cb.chunk.js.map",
+    "runtime-main.js": "/AviPortfolio/static/js/runtime-main.eda8b341.js",
+    "runtime-main.js.map": "/AviPortfolio/static/js/runtime-main.eda8b341.js.map",
+    "static/js/2.61dcbbce.chunk.js": "/AviPortfolio/static/js/2.61dcbbce.chunk.js",
+    "static/js/2.61dcbbce.chunk.js.map": "/AviPortfolio/static/js/2.61dcbbce.chunk.js.map",
+    "index.html": "/AviPortfolio/index.html",
+    "static/css/main.b46cc0a9.chunk.css.map": "/AviPortfolio/static/css/main.b46cc0a9.chunk.css.map",
+    "static/js/2.61dcbbce.chunk.js.LICENSE.txt": "/AviPortfolio/static/js/2.61dcbbce.chunk.js.LICENSE.txt",
+    "static/media/address.e8721205.png": "/AviPortfolio/static/media/address.e8721205.png",
+    "static/media/avinav.d7e024cf.jpg": "/AviPortfolio/static/media/avinav.d7e024cf.jpg",
+    "static/media/call.fd7700fa.png": "/AviPortfolio/static/media/call.fd7700fa.png",
+    "static/media/education.1e59b1c5.png": "/AviPortfolio/static/media/education.1e59b1c5.png",
+    "static/media/email.b8107c75.png": "/AviPortfolio/static/media/email.b8107c75.png",
+    "static/media/me.47b56587.png": "/AviPortfolio/static/media/me.47b56587.png",
+    "static/media/moon.61e00084.png": "/AviPortfolio/static/media/moon.61e00084.png",
+    "static/media/sun.f794832a.png": "/AviPortfolio/static/media/sun.f794832a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eda8b341.js",
+    "static/js/2.61dcbbce.chunk.js",
+    "static/css/main.b46cc0a9.chunk.css",
+    "static/js/main.bd5864cb.chunk.js"
+  ]
+}

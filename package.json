@@ -1,6 +1,6 @@
 {
-  "name": "new",
   "homepage": "https://AvinavStha.github.io/AviPortfolio",
+  "name": "new",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

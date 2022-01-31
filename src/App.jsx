@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import { useState } from "react/cjs/react.development";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";

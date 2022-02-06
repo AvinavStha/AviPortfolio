@@ -6,6 +6,14 @@ import address from "../../img/address.png";
 import { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+    faFacebook,
+    faTwitter,
+    faInstagram,
+    faGithub
+} from "@fortawesome/free-brands-svg-icons";
 
 
 
@@ -13,7 +21,7 @@ const Contact = () => {
     const formRef = useRef();
     const [done, setDone] = useState(false)
     const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
+    const darkMode = theme.state.darkMode;
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -54,25 +62,39 @@ const Contact = () => {
                             <img src={address} alt="" className="c-icon" />
                             18 Balaju, Kathmandu 44600, Nepal
                         </div>
+                        <div className="c-socialLinks">
+                            <a href="https://github.com/AvinavStha/"
+                                className="github social">
+                                <FontAwesomeIcon icon={faGithub} size="2x" />
+                            </a>
+                            <a href="https://www.facebook.com/ShresAvinav/"
+                                className="facebook social">
+                                <FontAwesomeIcon icon={faFacebook} size="2x" />
+                            </a>
+                            <a href="https://www.instagram.com/shresavinav/"
+                                className="instagram social">
+                                <FontAwesomeIcon icon={faInstagram} size="2x" />
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="c-right">
                     <p className="c-desc">
                         <b> If you require any further information, </b>
-                        feel free to contact or email  me. 
+                        feel free to contact or email  me.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
-                        <input style={{backgroundColor: darkMode && "#333"}} type="text" name="user_name" placeholder="Name" />
-                        <input style={{backgroundColor: darkMode && "#333"}} type="text" name="user_subject" placeholder="Subject" />
-                        <input style={{backgroundColor: darkMode && "#333"}} type="text" name="user_email" placeholder="Email" />
-                        <textarea style={{backgroundColor: darkMode && "#333"}} placeholder="Message" name="message" rows="5"></textarea>
-                        <button>Submit </button>
+                        <input style={{ backgroundColor: darkMode && "#333", margin: 10 }} type="text" name="user_name" placeholder="Name" />
+                        <input style={{ backgroundColor: darkMode && "#333", margin: 10 }} type="text" name="user_subject" placeholder="Subject" />
+                        <input style={{ backgroundColor: darkMode && "#333", margin: 10 }} type="text" name="user_email" placeholder="Email" />
+                        <textarea style={{ backgroundColor: darkMode && "#333", margin: 10 }} placeholder="Message" name="message" rows="5"></textarea>
+                        <button style={{ margin: 10 }}>Submit </button>
                         {done && "Thank You!"}
                     </form>
                 </div>
             </div>
         </div>
-    ) 
+    )
 };
 
 export default Contact;

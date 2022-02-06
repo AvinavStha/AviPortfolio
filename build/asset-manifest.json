@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/AviPortfolio/static/css/main.b46cc0a9.chunk.css",
-    "main.js": "/AviPortfolio/static/js/main.9b14e660.chunk.js",
-    "main.js.map": "/AviPortfolio/static/js/main.9b14e660.chunk.js.map",
+    "main.css": "/AviPortfolio/static/css/main.a163aef8.chunk.css",
+    "main.js": "/AviPortfolio/static/js/main.267be267.chunk.js",
+    "main.js.map": "/AviPortfolio/static/js/main.267be267.chunk.js.map",
     "runtime-main.js": "/AviPortfolio/static/js/runtime-main.eda8b341.js",
     "runtime-main.js.map": "/AviPortfolio/static/js/runtime-main.eda8b341.js.map",
     "static/js/2.9de159ac.chunk.js": "/AviPortfolio/static/js/2.9de159ac.chunk.js",
     "static/js/2.9de159ac.chunk.js.map": "/AviPortfolio/static/js/2.9de159ac.chunk.js.map",
     "index.html": "/AviPortfolio/index.html",
-    "static/css/main.b46cc0a9.chunk.css.map": "/AviPortfolio/static/css/main.b46cc0a9.chunk.css.map",
+    "static/css/main.a163aef8.chunk.css.map": "/AviPortfolio/static/css/main.a163aef8.chunk.css.map",
     "static/js/2.9de159ac.chunk.js.LICENSE.txt": "/AviPortfolio/static/js/2.9de159ac.chunk.js.LICENSE.txt",
     "static/media/address.e8721205.png": "/AviPortfolio/static/media/address.e8721205.png",
     "static/media/avinav.d7e024cf.jpg": "/AviPortfolio/static/media/avinav.d7e024cf.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.eda8b341.js",
     "static/js/2.9de159ac.chunk.js",
-    "static/css/main.b46cc0a9.chunk.css",
-    "static/js/main.9b14e660.chunk.js"
+    "static/css/main.a163aef8.chunk.css",
+    "static/js/main.267be267.chunk.js"
   ]
 }

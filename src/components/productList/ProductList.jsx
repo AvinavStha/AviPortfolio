@@ -8,10 +8,10 @@ const ProductList = () => {
         <div className="pl">
             <div className="pl-texts">
                 <h1 className="pi-title">
-                    Create & Inspire. It's Abhinav
+                    Create & Inspire. It's Abhinav.
                 </h1>
                 <p className="pl-desc">
-                    Checkout my Social Profile below:
+                    Checkout my Projects below:
                 </p>
             </div>
             <div className="pl-list">

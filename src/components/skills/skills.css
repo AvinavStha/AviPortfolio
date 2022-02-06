@@ -1,0 +1,61 @@
+.s{
+    display:flex ;
+    height: 50vh;
+}
+.s-left{
+    flex: 1;
+    position: relative;
+    
+}
+.s-right{
+    flex: 1;
+    display: flex;
+    position: relative;
+    padding-left: 100px;
+
+
+}
+.s-left-wrapper{
+    padding: 50px;
+    position: absolute;
+
+}
+.s-texts{
+    font-weight: 500;
+    align-items: center;
+    justify-self: center;
+
+}
+.s-desc{
+    font-size: 14px;
+    display: flex;
+    width: 75vh;
+    text-align: justify;
+    margin-top: 20px;
+    padding-right: 50px;
+    }
+    
+.s-background{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    background-color: #59b256;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 0px 150px 0px 150px;
+}
+.s-img{
+    position: absolute;
+    justify-content:center;
+    align-items: center;
+    width: 75%;
+    display: flex;
+    background-color: #333;
+}
+.s-mine{
+    text-align: left;
+    padding: 10px;
+}
+.s-achievements{
+    font-weight: bold;
+    padding-top: 50px;
+}

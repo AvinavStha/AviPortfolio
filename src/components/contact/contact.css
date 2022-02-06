@@ -43,6 +43,10 @@
     font-weight: 200;
 }
 
+.c-desc, b{
+    font-weight: 600;
+}
+
 form{
     margin-top: 20px;
 
@@ -103,4 +107,27 @@ button{
     button{
         margin-top: 10px;
     }
+}
+
+.c-socialLinks {
+    padding: 10px 0px;
+  }
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+a.social:hover {
+    color:#59b256;
+    transform: translateY(-2px);
+}
+a.github{
+    color: grey;
+}
+a.facebook {
+    color: grey;
+}
+a.instagram {
+    color: grey;
 }

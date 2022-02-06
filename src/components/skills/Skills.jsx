@@ -42,9 +42,7 @@ const Skills = () => {
                 </div>
             </div>
             <div className="s-right">
-                <div className="s-achievements">
-                    <h1>My Achievements</h1>
-                </div>
+                
                 <div className="s-img">
                     <CarouselContainer />
                 </div>

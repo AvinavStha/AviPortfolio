@@ -44,7 +44,7 @@ const Contact = () => {
                     <div className="c-info">
                         <div className="c-info-item">
                             <img src={phone} alt="" className="c-icon" />
-                            +977987654321
+                            +977 9843597381
                         </div>
                         <div className="c-info-item">
                             <img src={email} alt="" className="c-icon" />
@@ -52,7 +52,7 @@ const Contact = () => {
                         </div>
                         <div className="c-info-item">
                             <img src={address} alt="" className="c-icon" />
-                            18 Balaju, Kathmandu 44600 Nepal
+                            18 Balaju, Kathmandu 44600, Nepal
                         </div>
                     </div>
                 </div>

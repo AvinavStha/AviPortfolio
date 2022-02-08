@@ -1,6 +1,6 @@
 .s{
     display:flex ;
-    height: 60vh;
+    height: 50vh;
 }
 .s-left{
     flex: 1;
@@ -20,6 +20,7 @@
     padding: 50px;
     position: absolute;
 
+
 }
 .s-texts{
     font-weight: 500;
@@ -33,7 +34,7 @@
     width: 75vh;
     text-align: justify;
     margin-top: 20px;
-    padding-right: 15px;
+    padding-right: 50px;
     }
     
 .s-background{
@@ -68,14 +69,14 @@
 @media screen and (max-width: 480px){
     .s{
         
-        padding-top: 150px;
+        padding-top: 100px;
     }
     /* .s-left-wrapper{
         padding-top: 10px 0px;
     } */
     
     .s-background{
-        height: 45vh;
+        height: 40vh;
 
     }
     .s-desc{

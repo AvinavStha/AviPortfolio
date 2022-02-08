@@ -17,27 +17,15 @@ const Skills = () => {
                         I've basically obtained a decent knowledge of computer science and web development ideas as a learner, and I've spent a lot of my time applying these concepts to real-world applications.
                         </p>
                     </div>
-                    <div className="s-mine">
-                        <ul className="s-types">
-                            <li className="s-types-list">
-                                HTML & CSS
-                            </li>
-                            <li className="s-types-list">
-                                Angular JS Basic
-                            </li>
-                            <li className="s-types-list">
-                                Python (Django)
-                            </li>
-                            <li className="s-types-list">
-                                PHP
-                            </li>
-                            <li className="s-types-list">
-                                Java
-                            </li>
-                            <li className="s-types-list">
-                                React JS Basic
-                            </li>
-                        </ul>
+                    <div className="s-Type">
+                        <span className="s-types">
+                        &#8226; HTML & CSS
+                            </span >
+                        <span className="s-types"> &#8226; Angular JS Basic</span >
+                        <span className="s-types">&#8226; Python (Django)</span >
+                        <span className="s-types">&#8226; PHP</span>
+                        <span className="s-types">&#8226; Java</span>
+                        <span className="s-types">&#8226; React JS Basic</span>
                     </div>
                 </div>
             </div>

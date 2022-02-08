@@ -1,9 +1,10 @@
 .s{
     display:flex ;
-    height: 50vh;
+    height: 55vh;
 }
 .s-left{
     flex: 1;
+    display: flex;
     position: relative;
     
 }
@@ -32,7 +33,7 @@
     width: 75vh;
     text-align: justify;
     margin-top: 20px;
-    padding-right: 50px;
+    padding-right: 15px;
     }
     
 .s-background{
@@ -51,7 +52,42 @@
     display: flex;
     background-color: #333;
 }
-.s-mine{
-    text-align: left;
-    padding: 10px;
+
+.s-Type{
+    padding-left: 50px;
+    flex-wrap: wrap;
+}
+.s-types{
+    justify-content: space-between;
+    display: flex;
+    
+    align-items: left;
+}
+
+@media screen and (max-width: 480px){
+    .s{
+        margin-bottom:150px ;
+        padding-top: 380px;
+        padding-bottom: 150px;
+        flex-wrap: wrap;
+    }
+    .s-left-wrapper{
+        padding-top: 10px 0px;
+    }
+    .s-Type{
+        text-align: left;
+    }
+    .s-background{
+        display: none;
+    }
+    
+    .s-desc{
+       display: none;
+    }
+   .s-right{
+       display: none;
+   }
+  
+    
+    
 }

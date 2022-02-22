@@ -21,7 +21,7 @@ const Skills = () => {
                             <span className="s-types">
                                 &#8226; HTML & CSS
                             </span >
-                            <span className="s-types"> &#8226; Angular JS Basic</span >
+                            <span className="s-types"> &#8226; Angular Basic</span >
                             <span className="s-types">&#8226; Python (Django)</span >
                             <span className="s-types">&#8226; PHP</span>
                             <span className="s-types">&#8226; Java</span>

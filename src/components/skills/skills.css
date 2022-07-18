@@ -17,12 +17,13 @@
 
 }
 .s-left-wrapper{
-    padding: 50px;
     position: absolute;
 
 
 }
 .s-texts{
+    padding-top: 30px;
+    padding-left: 50px;
     font-weight: 500;
     align-items: center;
     justify-self: center;
@@ -41,7 +42,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     background-color: #59b256;
     width: 100%;
-    height: 125%;
+    height: 102.5%;
     position: absolute;
     border-radius: 0px 150px 0px 150px;
     display: flex;
@@ -56,9 +57,9 @@
 }
 
 .s-Type{
-    padding-left: 50px;
-    padding-bottom: 50px;
-    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    /* flex-wrap: wrap; */
 }
 .s-types{
     justify-content: space-between;

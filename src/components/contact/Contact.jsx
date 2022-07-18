@@ -11,7 +11,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faFacebook,
     faInstagram,
-    faGithub
+    faGithub,
+    faLinkedinIn
 } from "@fortawesome/free-brands-svg-icons";
 
 
@@ -26,10 +27,10 @@ const Contact = () => {
         e.preventDefault();
         emailjs
             .sendForm(
-                "service_eq2qupe",
-                "template_mkr3fcj",
+                "service_0pp9inc",
+                "template_b2sa5lr",
                 formRef.current,
-                "user_37gbrlCqZM0CHy89AEWkI")
+                "user_Q3iOaKy6j5eWFXc3NaKiY")
             .then(
                 (result) => {
                     console.log(result.text);
@@ -59,7 +60,7 @@ const Contact = () => {
                         </div>
                         <div className="c-info-item">
                             <img src={address} alt="" className="c-icon" />
-                            18 Balaju, Kathmandu 44600, Nepal
+                            16 Balaju, Kathmandu 44600, Nepal
                         </div>
                         <div className="c-socialLinks">
                             <a href="https://github.com/AvinavStha/"
@@ -73,6 +74,10 @@ const Contact = () => {
                             <a href="https://www.instagram.com/shresavinav/"
                                 className="instagram social">
                                 <FontAwesomeIcon icon={faInstagram} size="2x" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/avinav-shrestha-649848196"
+                                className="linkedin social">
+                                <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
                             </a>
                         </div>
                     </div>

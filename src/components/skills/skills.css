@@ -1,94 +1,79 @@
-.s{
-    display:flex ;
-    height: 50vh;
+.s {
+  display: flex;
+  height: 50vh;
 }
-.s-left{
-    flex: 1;
-    display: flex;
-    position: relative;
-    
+.s-left {
+  flex: 1;
+  display: flex;
+  position: relative;
 }
-.s-right{
-    flex: 1;
-    display: flex;
-    position: relative;
-    padding-left: 100px;
-
-
+.s-right {
+  flex: 1;
+  display: flex;
+  position: relative;
+  padding-left: 100px;
 }
-.s-left-wrapper{
-    position: absolute;
-
-
+.s-left-wrapper {
+  position: absolute;
 }
-.s-texts{
+.s-texts {
+  padding-top: 30px;
+  padding-left: 50px;
+  font-weight: 500;
+  align-items: center;
+  justify-self: center;
+}
+.s-desc {
+  font-size: 14px;
+  display: flex;
+  width: 75vh;
+  text-align: justify;
+  margin-top: 20px;
+  padding-right: 50px;
+}
+
+.s-background {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  background-color: #59b256;
+  width: 100%;
+  height: 102.5%;
+  position: absolute;
+  border-radius: 0px 150px 0px 150px;
+  display: flex;
+}
+.s-img {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  display: flex;
+  background-color: #333;
+}
+
+.s-Type {
+  padding-left: 100px;
+  padding-bottom: 100px;
+  /* flex-wrap: wrap; */
+}
+.s-types {
+  justify-content: space-between;
+  display: flex;
+
+  align-items: left;
+}
+
+@media screen and (max-width: 480px) {
+  .s {
+    margin: 10px;
     padding-top: 30px;
-    padding-left: 50px;
-    font-weight: 500;
-    align-items: center;
-    justify-self: center;
-
-}
-.s-desc{
-    font-size: 14px;
-    display: flex;
-    width: 75vh;
-    text-align: justify;
-    margin-top: 20px;
-    padding-right: 50px;
-    }
-    
-.s-background{
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    background-color: #59b256;
-    width: 100%;
-    height: 102.5%;
-    position: absolute;
-    border-radius: 0px 150px 0px 150px;
-    display: flex;
-}
-.s-img{
-    position: absolute;
-    justify-content:center;
-    align-items: center;
-    width: 75%;
-    display: flex;
-    background-color: #333;
-}
-
-.s-Type{
-    padding-left: 100px;
-    padding-bottom: 100px;
-    /* flex-wrap: wrap; */
-}
-.s-types{
-    justify-content: space-between;
-    display: flex;
-    
-    align-items: left;
-}
-
-@media screen and (max-width: 480px){
-    .s{
-        
-        padding-top: 100px;
-    }
-    /* .s-left-wrapper{
-        padding-top: 10px 0px;
-    } */
-    
-    .s-background{
-        margin-top: 50px;
-        height: 50vh;
-
-    }
-    .s-desc{
-       display: none;
-    }
-   .s-right{
-       display: none;
-   }
-  
-    
-    
+  }
+  .s-background {
+    height: 38vh;
+  }
+  .s-desc {
+    display: none;
+  }
+  .s-right {
+    display: none;
+  }
 }

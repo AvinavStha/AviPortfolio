@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/AviPortfolio/static/css/main.d0b6ad93.chunk.css",
-    "main.js": "/AviPortfolio/static/js/main.34726384.chunk.js",
-    "main.js.map": "/AviPortfolio/static/js/main.34726384.chunk.js.map",
+    "main.css": "/AviPortfolio/static/css/main.594cd2c9.chunk.css",
+    "main.js": "/AviPortfolio/static/js/main.027d1177.chunk.js",
+    "main.js.map": "/AviPortfolio/static/js/main.027d1177.chunk.js.map",
     "runtime-main.js": "/AviPortfolio/static/js/runtime-main.eda8b341.js",
     "runtime-main.js.map": "/AviPortfolio/static/js/runtime-main.eda8b341.js.map",
     "static/css/2.0a9ec390.chunk.css": "/AviPortfolio/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.1fa89f80.chunk.js": "/AviPortfolio/static/js/2.1fa89f80.chunk.js",
-    "static/js/2.1fa89f80.chunk.js.map": "/AviPortfolio/static/js/2.1fa89f80.chunk.js.map",
+    "static/js/2.aa3a14c8.chunk.js": "/AviPortfolio/static/js/2.aa3a14c8.chunk.js",
+    "static/js/2.aa3a14c8.chunk.js.map": "/AviPortfolio/static/js/2.aa3a14c8.chunk.js.map",
     "index.html": "/AviPortfolio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/AviPortfolio/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.d0b6ad93.chunk.css.map": "/AviPortfolio/static/css/main.d0b6ad93.chunk.css.map",
-    "static/js/2.1fa89f80.chunk.js.LICENSE.txt": "/AviPortfolio/static/js/2.1fa89f80.chunk.js.LICENSE.txt",
+    "static/css/main.594cd2c9.chunk.css.map": "/AviPortfolio/static/css/main.594cd2c9.chunk.css.map",
+    "static/js/2.aa3a14c8.chunk.js.LICENSE.txt": "/AviPortfolio/static/js/2.aa3a14c8.chunk.js.LICENSE.txt",
     "static/media/address.e8721205.png": "/AviPortfolio/static/media/address.e8721205.png",
     "static/media/avinav.d7e024cf.jpg": "/AviPortfolio/static/media/avinav.d7e024cf.jpg",
     "static/media/call.fd7700fa.png": "/AviPortfolio/static/media/call.fd7700fa.png",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.eda8b341.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.1fa89f80.chunk.js",
-    "static/css/main.d0b6ad93.chunk.css",
-    "static/js/main.34726384.chunk.js"
+    "static/js/2.aa3a14c8.chunk.js",
+    "static/css/main.594cd2c9.chunk.css",
+    "static/js/main.027d1177.chunk.js"
   ]
 }
